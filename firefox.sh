@@ -26,6 +26,6 @@ if [[ "$OSTYPE" == "darwin"* ]] && [ ! -f "$BROWSER" ]; then
 fi
 
 echo "Starting Firefox in kiosk mode"
-"$BROWSER" -kiosk "$URL" &
+"$BROWSER" --new-window -kiosk "$URL" &
 
 exit
