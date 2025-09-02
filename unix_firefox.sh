@@ -1,6 +1,6 @@
 #!/bin/bash
 
-URL="https://example.com"
+URL="https://anthropobio.uliege.be/?tab=home"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
     BROWSER="/Applications/Firefox.app/Contents/MacOS/firefox"
