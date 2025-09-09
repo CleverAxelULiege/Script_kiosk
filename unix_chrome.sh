@@ -32,6 +32,6 @@ if [[ "$OSTYPE" == "darwin"* ]] && [ ! -f "$BROWSER" ]; then
 fi
 
 echo "Starting Chrome in kiosk mode"
-"$BROWSER" --new-window -kiosk --disable-features=TranslateUI --disable-extensions --disable-plugins "$URL" &
+"$BROWSER" --new-window -kiosk --disable-features=TranslateUI "$URL" &
 
 exit
